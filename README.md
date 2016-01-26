@@ -19,5 +19,15 @@ Value
 Valid From Day
 Valid To Day
 
-For A concatenate info and match.
+For A - concatenate info and match and then use below for overlap.
+
+Remove overlap so that any period shows maximum cost or minimum price to be prudent.
+
+For C assume that data is financial data so needs to be treated as such.
+
+Also assume that widgets are fungible and so cannot be tracked.
+
+The sale price and distribution cost are set for different number of units so are not comparable.
+
+
 

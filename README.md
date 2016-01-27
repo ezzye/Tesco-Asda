@@ -32,6 +32,7 @@ The sale price and distribution cost are set for different number of units so ar
 
 
 
+
 # angular-seed — the seed for AngularJS apps
 
 This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.

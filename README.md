@@ -19,15 +19,36 @@ Value
 Valid From Day
 Valid To Day
 
+
+
+##Run
+
+See below on how to install Angula seed
+
+run `npm test` from root to run tests
+
+
+##Approach
+
 For A - concatenate info and match and then use below for overlap.
 
 Remove overlap so that any period shows maximum cost or minimum price to be prudent.
 
+
+
+
+##Assumptions (C)
+
 For C assume that data is financial data so needs to be treated as such.
+
+Remove overlap so that any period shows maximum distribution cost or minimum sale price to be prudent.
 
 Also assume that widgets are fungible and so cannot be tracked.
 
 The sale price and distribution cost are set for different number of units so are not comparable.
+
+Items with date spanning 00000000 to 99999999 covers entire period so set overlapping itmes to start and end at 99999999 as not used.
+
 
 
 

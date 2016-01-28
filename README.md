@@ -50,8 +50,20 @@ The sale price and distribution cost are set for different number of units so ar
 Items with date spanning 00000000 to 99999999 covers entire period so set overlapping itmes to start and end at 99999999 as not used.
 
 
+##Answer
 
-
+```
+[{rowID: 9, product: 'Widgets', customer: 'Asda', measure: 'Distribution Cost', value: 2, validFromDay: 20130301, validToDay: 20131231}
+{rowID: 10, product: 'Widgets', customer: 'Asda', measure: 'Distribution Cost', value: 3, validFromDay: 20140401, validToDay: 20150101}
+{rowID: 7, product: 'Widgets', customer: 'Asda', measure: 'Gross Sales Price', value: 100, validFromDay: 0, validToDay: 99999999}
+{rowID: 8, product: 'Widgets', customer: 'Asda', measure: 'Gross Sales Price', value: 200, validFromDay: 99999999, validToDay: 99999999}
+{rowID: 4, product: 'Widgets', customer: 'Tesco', measure: 'Distribution Cost', value: 5, validFromDay: 20130101, validToDay: 20130228}
+{rowID: 5, product: 'Widgets', customer: 'Tesco', measure: 'Distribution Cost', value: 6, validFromDay: 20130301, validToDay: 20131230}
+{rowID: 6, product: 'Widgets', customer: 'Tesco', measure: 'Distribution Cost', value: 7, validFromDay: 20131231, validToDay: 20150101}
+{rowID: 1, product: 'Widgets', customer: 'Tesco', measure: 'Gross Sales Price', value: 1, validFromDay: 20130101, validToDay: 20130401}
+{rowID: 2, product: 'Widgets', customer: 'Tesco', measure: 'Gross Sales Price', value: 1.5, validFromDay: 20130402, validToDay: 20131231}
+{rowID: 3, product: 'Widgets', customer: 'Tesco', measure: 'Gross Sales Price', value: 2, validFromDay: 20140101, validToDay: 20150101}]
+```
 
 
 # angular-seed — the seed for AngularJS apps
